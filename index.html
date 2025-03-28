@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Introduction to css</h1>
+    
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ol>
+    
+    <!-- External Image -->
+    <h2>External Image</h2>
+    <img src="Images/pexels-ayobami-61080370-28509897.jpg" alt="Sample Image from Pexels"  height="450" width="450">
+    
+    <!-- Contacts Table -->
+    <h2>Contacts Table</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>123 Main St</td>
+            <td>+1234567890</td>
+            <td>john@example.com</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>456 Oak Ave</td>
+            <td>+9876543210</td>
+            <td>jane@example.com</td>
+        </tr>
+        <tr>
+            <td>Emily Brown</td>
+            <td>789 Pine Rd</td>
+            <td>+1122334455</td>
+            <td>emily@example.com</td>
+        </tr>
+        <tr>
+            <td>Michael White</td>
+            <td>321 Elm St</td>
+            <td>+5566778899</td>
+            <td>michael@example.com</td>
+        </tr>
+        <tr>
+            <td>Sarah Green</td>
+            <td>654 Maple Ln</td>
+            <td>+4433221100</td>
+            <td>sarah@example.com</td>
+        </tr>
+    </table>
+    
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        <br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+        
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male"> Male
+        <input type="radio" id="female" name="gender" value="female"> Female
+        <input type="radio" id="other" name="gender" value="other"> Other
+        <br><br>
+        
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="">Select your country</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+        </select>
+        <br><br>
+        
+        <label>Interests:</label>
+        <input type="checkbox" name="interests" value="coding"> Coding
+        <input type="checkbox" name="interests" value="music"> Music
+        <input type="checkbox" name="interests" value="sports"> Sports
+        <br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+    
+    <!-- Multimedia Elements -->
+    <h2>Multimedia Elements</h2>
+    <audio loop="" autoplay="">
+        <source src="audio/inspiring-motivation-beat-297977.mp3" type="audio/mpeg">
+        
+    </audio>
+    <br><br>
+    <video height="450" width="500" loop="" autoplay="">
+        <source  src="Videos/3831765-uhd_2160_4096_25fps.mp4" type="video/mp4">
+
+    </video>
+</body>
+</html>
